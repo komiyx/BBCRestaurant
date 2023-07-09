@@ -1,0 +1,154 @@
+body
+{
+	margin:0;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+*
+{
+	box-sizing:border-box;
+}
+h1,h4,h5
+{
+	margin:0;
+}
+
+.navbar ul
+{
+	display:flex;
+	justify-content:center;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	background-color:white;
+}
+
+.navbar ul li 
+{
+	display:inline-block;
+}
+.navbar li a
+{	
+	display:block;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:25px 20px;
+	font-size:19px;
+	color:black;
+	letter-spacing::2.5px;
+	transition:all 0.4;
+}
+
+.navbar li a:hover
+{
+	background-color:black;
+	color:red;
+}
+.story_section
+{
+	padding:200px 0;
+	background-image:linear-gradient(rgba(0,0,0,0.1	),
+	rgba(0,0,0,0.5)),url(../img/story.jpeg);
+	background-size:cover;
+	background-blend-mode:multiply;
+}
+.text
+{
+	color:white;
+	margin-top:-50px;
+	text-align:center;
+}
+.text h1
+{
+	font-weight:500;
+	color:white;
+	font-size:50px;
+	margin-top:-40px;
+	font-family: system-ui;
+}
+.about_container
+{
+	background-image:linear-gradient(rgba(0,0,0,0.1	),
+	rgba(0,0,0,0.5)),url(../img/clear.jpeg);
+	background-size:cover;
+	background-blend-mode:multiply;
+	padding-left:36px;
+	padding-right:36px;
+	padding-top:50px;
+	margin:0 auto;
+	clear:both;
+	height:600px;
+	}
+.about_container p 
+{
+	color:black;
+	font-family: system-ui;
+	font-size:18px;
+}
+
+ul.a 
+{
+  list-style-type: circle;
+}
+footer
+{
+    padding: 35px 0;
+    overflow: hidden;
+}
+
+footer .footer_logo
+{
+    float: left;
+}
+
+footer .rights p
+{
+    float: left;
+    color: #838181;
+    font-family: "raleway-regular";
+    font-size: 13px;
+    margin: 5px 0 0 40px; 
+}
+
+footer .rights p a
+{
+    color: #777;
+    font-family: "raleway-semibold";
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer nav ul{
+    float: right;
+    overflow: hidden;
+    list-style: none;
+    margin-top: 5px; 
+	margin-right:25px;
+}
+
+footer nav ul li
+{
+    float: left;
+    margin-left: 25px;
+}
+
+footer nav ul li a
+{
+    color: #838181;
+    font-family: "raleway-regular";
+    font-size: 13px;
+    text-decoration: none;
+
+    transition:all .2s linear;
+    -webkit-transition:all .2s linear;
+    -moz-transition:all .2s linear;
+    -o-transition:all .2s linear;
+}
+
+footer nav ul li a:hover
+{
+    color: #616161;
+}	
+
+
